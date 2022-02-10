@@ -1,1 +1,310 @@
+<?php
+/**
+ * Template Name:Home
+ *
+ * This is the template that displays all of the <head> section and everything up until <div id="content">
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package citrus_cyle
+ */
+get_header();
+?>
 
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid ">
+              <div class="row">
+                <div class="col-md-6 col-lg-5">
+                  <div class="detail-box">
+                    <h1>
+                    CITRUS CYCLE
+                    </h1>
+                    <p >
+                    100% Natural Skin Care products
+                     made from recycled organe peels
+                    </p><br>
+                    <div class="btn-box">
+                      <a href="" class="btn1" alt style ="border-radius:10px!important">
+                        Shop Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-7">
+                  <div class="img-box">
+                    <img src="<?php echo get_template_directory_uri()?>/images/f9.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 col-lg-5">
+                  <div class="detail-box">
+                    <h1>
+                    CITRUS CYCLE
+                    </h1>
+                    <p>
+                    100% Natural Skin Care products
+                     made from recycled organe peels
+                    </p><br>
+                    <div class="btn-box">
+                      <a href="" class="btn1" alt style ="border-radius:10px!important">
+                        shop Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-7">
+                  <div class="img-box">
+                    <img src="<?php echo get_template_directory_uri()?>/images/f10.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 col-lg-5">
+                  <div class="detail-box">
+                    <h1>
+                    CITRUS CYCLE
+                    </h1>
+                    <p>
+                    100% Natural Skin Care products
+                    made from recycled organe peels
+                    </p><br>
+                    <div class="btn-box">
+                      <a href="" class="btn1 " alt style ="border-radius:10px!important">
+                        shop Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-7">
+                  <div class="img-box">
+                    <img src="<?php echo get_template_directory_uri()?>/images/f8.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+    <!-- offer section -->
+
+    <section class="offer_section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 px-0">
+          <div class="box"  style ="border-radius:30px!important" >
+            <img src="<?php echo get_template_directory_uri()?>/images/card03.jpg" alt style ="">
+            <div class="detail-box">
+              <h2>
+              SkinCare Benefits of Natural Products
+                
+              </h2>
+              <h3>
+             
+              </h3>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="box" >
+            <img src="<?php echo get_template_directory_uri()?>/images/card02.jpg" alt style ="">
+            <div class="detail-box">
+              <h2>
+              SkinCare Benefits of Natural Products
+              </h2>
+              <h3>
+              
+              </h3>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end offer section -->
+
+
+   <!-- shop section -->
+   <section class="fruits_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center  " >
+        <h2 class="">
+          Best Sellers
+        </h2>
+        
+      </div>
+      <div class="fruits_owl-carousel owl-carousel owl-theme ">
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="<?php echo get_template_directory_uri()?>/images/f7.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+              Lorem ipsum
+              </h4>
+              <h6 class="price">
+                <span class="new_price">
+                  40$
+                </span>
+                <span class="old_price">
+                  45$
+                </span>
+              </h6>
+              <a href=""alt style ="border-radius:10px!important">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i> Add To Cart
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="<?php echo get_template_directory_uri()?>/images/f10.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+              Lorem ipsum
+              </h4>
+              <h6 class="price">
+                <span class="new_price">
+                  38$
+                </span>
+                <span class="old_price">
+                  43$
+                </span>
+              </h6>
+              <a href=""alt style ="border-radius:10px!important">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i> Add To Cart
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="<?php echo get_template_directory_uri()?>/images/f9.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+              Lorem ipsum
+              </h4>
+              <h6 class="price">
+                <span class="new_price">
+                  44$
+                </span>
+                <span class="old_price">
+                  48$
+                </span>
+              </h6>
+              <a href=""alt style ="border-radius:10px!important">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i> Add To Cart
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="img-box">
+              <img src="<?php echo get_template_directory_uri()?>/images/f8.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+              Lorem ipsum
+              </h4>
+              <h6 class="price">
+                <span class="new_price">
+                  41$
+                </span>
+                <span class="old_price">
+                  47$
+                </span>
+              </h6>
+              <a href=""alt style ="border-radius:10px!important">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i> Add To Cart
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <br> <br> <br> <br> 
+     <!--  background section -->
+
+     <section class="product_section ">
+    <div class="product_bg">
+ 
+      <img src="<?php echo get_template_directory_uri()?>/images/about-img.png" alt="">
+    </div>
+  
+    <div class="container ">
+      <div class="heading_container heading_center  >
+        <h1 .text-white font-family: Sansita One; ">
+        Treat Yourself By 100% Natural SkinCare Products made from Recycled Orange Peels
+        </h1>
+        
+        
+  
+<br><br>
+
+      
+        <a href=" bkrnd-btn"  style ="background-colour:#FE9212 ">
+        <button type="button" class="btn btn-warning .text-white">learn more</button>
+                <i class="" aria-hidden="true"></i> 
+              </a>
+              </div>
+              </button>
+    </div>
+  </section>
+ 
+  <!-- background section ends -->
+  
+  <!-- contact ussection -->
+ <section class="about_section about_section1 layout_padding-bottom">
+    <div class="container  ">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+            
+            </div>
+            <h1 class="display-8"> Loream Ispume Natural SkinCare Products made from Recycled Orange Peels</h1>
+            <h1 >
+            
+           </h1>
+            <a href="" alt style ="border-radius:10px!important">
+              contact us
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="<?php echo get_template_directory_uri()?>/images/footer.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact us section -->
+
+  <?php get_footer();?>
