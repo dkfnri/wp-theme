@@ -1,0 +1,97 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package citrus_cyle
+ */
+?>
+<section class="info_section ">
+    <div class="info_container ">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+        <figure>
+             <img src="<?php echo get_template_directory_uri()?>/sunshine/images/logo n.png "alt style ="border-radius:20px"/>
+           </figure>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+             <p class="copyright">All Rights Reserved By K2 Technalogies</p>
+            </div>
+            <div class="col-sm-4">
+                <h6 >
+                <a href="" text-white>Download App</a>
+                </h6>
+               <img src="<?php echo get_template_directory_uri()?>/images/download03.png" alt style ="border-radius:20px">
+
+            </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<!-- credit to https://epicbootstrap.com/snippets/footer-basic -->
+
+
+	 <!-- footer section -->
+	 
+  <!-- footer section -->
+  <!-- jQery -->
+  <!--  sunshine Javascript files-->
+  <script src="<?php echo get_template_directory_uri()?>/sunshine/js/jquery.min.js"></script>
+      <script src="<?php echo get_template_directory_uri()?>/sunshine/js/bootstrap.bundle.min.js"></script>
+      <script src="<?php echo get_template_directory_uri()?>/sunshine/js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+    
+      <script src="<?php echo get_template_directory_uri()?>/sunshine/js/custom.js"></script>
+        <!-- jquery mastreet start -->
+          <!-- jQery -->
+  <script src="<?php echo get_template_directory_uri()?>mastre/js/bootstrap.js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+<script src="<?php echo get_template_directory_uri()?>/js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
+  <script src="j<?php echo get_template_directory_uri()?>/s/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- custom js -->
+  <script src="<?php echo get_template_directory_uri()?>/js/custom.js"></script>
+  <script>
+    $(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+</script>
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        10:{
+            items:3
+        },
+        500:{
+            items:5
+        }
+    }
+})
+  </script>
+
+      
+  <!--  new footer section end -->
